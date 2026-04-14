@@ -1,10 +1,8 @@
 
-
-
 export default function Task4() {
   return (
-    <footer>
-      <p>{new Date().getFullYear()} Manish</p>
-    </footer>
+    <h1>
+      {new Date().getFullYear()} Manish
+    </h1>
   );
 }
